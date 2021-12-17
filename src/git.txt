@@ -1,11 +1,29 @@
  Git - GitHub
     - Criar repositorio remoto
+    ---https://github.com/MarlonDaSilvaMartins/exemplos
     - Conceito de  Issues
+    ---ferramenta para deixar um feedback ou reportar probemas encontrados
     - Conceito de Milestones
+    ---forma de agrupar uma serie de tarefas, serve como ponto de controle em um projeto
     - Git Ignore
+    ---utilizado para ignorar arquivos que não devem passar pelo commit
     - Comandos básicos  do git
+    ---git branch
+    ---git clone
+    ---git merge
+    ---git fetch
+    ---git add
+    ---git rm
+    ---git commit
+    ---git push
+    ---git status
     - Resolução de conflitos em merge
+    ---
     - Git Stash
+    ---utilizado para salvar mudancas que não devem ser commitadas imediatamente
     - Git cherry pick
+    ---selecionar commits específicos para trazer para uma branch desejada
     - Git Rebase
+    ---
     - Diferença entre o Merge e o Rebase
+    ---
