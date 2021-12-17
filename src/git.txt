@@ -1,0 +1,11 @@
+ Git - GitHub
+    - Criar repositorio remoto
+    - Conceito de  Issues
+    - Conceito de Milestones
+    - Git Ignore
+    - Comandos básicos  do git
+    - Resolução de conflitos em merge
+    - Git Stash
+    - Git cherry pick
+    - Git Rebase
+    - Diferença entre o Merge e o Rebase
