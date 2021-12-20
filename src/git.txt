@@ -49,4 +49,5 @@
 
 git branch <NomeNovaBranch> //criar branch
 git checkout <NomeDaBranch> //trocar de branch
-git push -u <url> <NomeDaBranch> //nova branch no repositorio remoto
+git push -u <url> <NomeDaBranch> //criando nova branch no repositorio remoto
+
