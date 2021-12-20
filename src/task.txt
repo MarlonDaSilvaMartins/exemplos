@@ -5,7 +5,7 @@
     ok- Git Ignore
     - Comandos básicos  do git
     - Resolução de conflitos em merge
-    - Git Stash
+    ok- Git Stash
     - Git cherry pick
     - Git Rebase
     - Diferença entre o Merge e o Rebase
