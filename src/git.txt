@@ -1,6 +1,8 @@
  Git - GitHub
     Criar repositorio remoto
-       https://github.com/MarlonDaSilvaMartins/exemplos
+       git remote add https://github.com/MarlonDaSilvaMartins/exemplos
+       git config --global user.name <nome>
+       git config --local user.email <email>
 
     Conceito de  Issues
        ferramenta para deixar um feedback ou reportar probemas encontrados
