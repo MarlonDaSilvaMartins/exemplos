@@ -1,6 +1,8 @@
- Git - GitHub
+Git - GitHub
     Criar repositorio remoto
-       https://github.com/MarlonDaSilvaMartins/exemplos
+       git remote add https://github.com/MarlonDaSilvaMartins/exemplos
+       git config --global user.name <nome>
+       git config --local user.email <email>
 
     Conceito de  Issues
        ferramenta para deixar um feedback ou reportar probemas encontrados
@@ -37,7 +39,7 @@
 
     Git cherry pick
        selecionar commits específicos para trazer para uma branch desejada
-           git cherry-pick <IdCommit> //checkout para a "main">cherrypick>push / commita apenas esse commit para a branch "main"(exemplo)
+       git cherry-pick <IdCommit> //checkout para a "main">cherrypick>push / commita apenas esse commit para a branch "main"(exemplo)
 
     Git Rebase
        como se estivesse refazendo a base do branch, unificando as branches envolvidas, puxando commits para frente do branch de destino
@@ -50,4 +52,3 @@
 git branch <NomeNovaBranch> //criar branch
 git checkout <NomeDaBranch> //trocar de branch
 git push -u <url> <NomeDaBranch> //criando nova branch no repositorio remoto
-
