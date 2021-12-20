@@ -4,7 +4,7 @@
     ok- Conceito de Milestones
     ok- Git Ignore
     ok- Comandos básicos  do git
-    - Resolução de conflitos em merge
+    ok- Resolução de conflitos em merge
     ok- Git Stash
     ok- Git cherry pick
     - Git Rebase
