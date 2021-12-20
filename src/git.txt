@@ -32,9 +32,12 @@
 
     Git Stash
        utilizado para salvar mudancas que não devem ser commitadas imediatamente
+           git stash //guarda alteracoes que nao irao ser commitadas no momento
+           git stash pop //devolve as alteracoes para o codigo
 
     Git cherry pick
        selecionar commits específicos para trazer para uma branch desejada
+           git cherry-pick <IdCommit> //checkout para a "main">cherrypick>push / commita apenas esse commit para a branch "main"(exemplo)
 
     Git Rebase
        como se estivesse refazendo a base do branch, unificando as branches envolvidas, puxando commits para frente do branch de destino
@@ -42,11 +45,9 @@
     Diferença entre o Merge e o Rebase
        rebase: unifica as branchs e permite um historico linear
        merge: permite pegar linhas de comandos independentes e integrar em uma ramificação única, sem alterar a branch
-       principal e adicionando apenas um commit na branch de desenvolvimento
+              principal e adicionando apenas um commit na branch de desenvolvimento
 
 git branch <NomeNovaBranch> //criar branch
 git checkout <NomeDaBranch> //trocar de branch
 git push -u <url> <NomeDaBranch> //nova branch no repositorio remoto
-git stash //guarda alteracoes que nao irao ser commitadas no momento
-git stash pop //devolve as alteracoes para o codigo
-git cherry-pick <IdCommit> //commita apenas esse commit para a outra branch
+
