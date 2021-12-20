@@ -47,3 +47,5 @@
 git branch <NomeNovaBranch> //criar branch
 git checkout <NomeDaBranch> //trocar de branch
 git push -u <url> <NomeDaBranch> //nova branch no repositorio remoto
+git stash //guarda alteracoes que nao irao ser commitadas no momento
+git stash pop //devolve as alteracoes para o codigo
