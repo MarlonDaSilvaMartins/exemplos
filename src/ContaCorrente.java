@@ -1,6 +1,6 @@
 public class ContaCorrente implements Conta{
     private double saldo;
-    private double taxa = 0.20;
+    private double taxa = 0.35;
 
     @Override//sobreescrevendo metodo da interface
     public void depositar(double valor){
