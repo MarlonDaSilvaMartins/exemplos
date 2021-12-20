@@ -3,10 +3,10 @@
     ok- Conceito de  Issues
     ok- Conceito de Milestones
     ok- Git Ignore
-    ok- Comandos básicos  do git
+    - Comandos básicos  do git
     - Resolução de conflitos em merge
-    ok- Git Stash
-    ok- Git cherry pick
+    - Git Stash
+    - Git cherry pick
     - Git Rebase
     - Diferença entre o Merge e o Rebase
 - Básicos Java
