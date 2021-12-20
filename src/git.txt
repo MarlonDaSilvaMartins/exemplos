@@ -45,7 +45,7 @@
     Diferença entre o Merge e o Rebase
        rebase: unifica as branchs e permite um historico linear
        merge: permite pegar linhas de comandos independentes e integrar em uma ramificação única, sem alterar a branch
-       principal e adicionando apenas um commit na branch de desenvolvimento
+              principal e adicionando apenas um commit na branch de desenvolvimento
 
 git branch <NomeNovaBranch> //criar branch
 git checkout <NomeDaBranch> //trocar de branch
