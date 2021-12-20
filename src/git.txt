@@ -1,0 +1,52 @@
+ Git - GitHub
+    Criar repositorio remoto
+       https://github.com/MarlonDaSilvaMartins/exemplos
+
+    Conceito de  Issues
+       ferramenta para deixar um feedback ou reportar probemas encontrados
+
+    Conceito de Milestones
+       forma de agrupar uma serie de tarefas, serve como ponto de controle em um projeto
+
+    Git Ignore
+       utilizado para ignorar arquivos que não devem passar pelo commit
+
+    Comandos básicos  do git
+       git branch
+       git clone
+       git merge
+       git rebase
+       git fetch
+       git add
+       git rm
+       git commit
+       git push
+       git status
+       git checkout
+
+    Resolução de conflitos em merge
+       ocorre quando ocorrem alterações concorrentes na mesma linha de um arquivo ou
+       uma pessoa edita um arquivo e outra pessoa exclui esse arquivo.
+          conflito de alteração diferentes na linha: escolher quais alterações dos diferentes branches incorporar
+          conflito de arquivo excluido: escolher se deseja excluir ou manter o arquivo removido
+
+    Git Stash
+       utilizado para salvar mudancas que não devem ser commitadas imediatamente
+
+    Git cherry pick
+       selecionar commits específicos para trazer para uma branch desejada
+
+    Git Rebase
+       como se estivesse refazendo a base do branch, unificando as branches envolvidas, puxando commits para frente do branch de destino
+
+    Diferença entre o Merge e o Rebase
+       rebase: unifica as branchs e permite um historico linear
+       merge: permite pegar linhas de comandos independentes e integrar em uma ramificação única, sem alterar a branch
+              principal e adicionando apenas um commit na branch de desenvolvimento
+
+git branch <NomeNovaBranch> //criar branch
+git checkout <NomeDaBranch> //trocar de branch
+git push -u <url> <NomeDaBranch> //nova branch no repositorio remoto
+git stash //guarda alteracoes que nao irao ser commitadas no momento
+git stash pop //devolve as alteracoes para o codigo
+git cherry-pick <IdCommit> //commita apenas esse commit para a outra branch
