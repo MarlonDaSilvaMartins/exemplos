@@ -8,7 +8,7 @@
     ok- Git Stash
     ok- Git cherry pick
     - Git Rebase
-    - Diferença entre o Merge e o Rebase
+    ok- Diferença entre o Merge e o Rebase
 - Básicos Java
     - Object Oriented Programming (OOP)
          ok- Construtores
