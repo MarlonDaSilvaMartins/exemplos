@@ -39,7 +39,7 @@
 
     Git cherry pick
        selecionar commits específicos para trazer para uma branch desejada
-       git cherry-pick <IdCommit> //checkout para a "main">cherrypick>push / commita apenas esse commit para a branch "main"(exemplo)
+          git cherry-pick <IdCommit> //checkout para a "main">cherrypick>push / commita apenas esse commit para a branch "main"(exemplo)
 
     Git Rebase
        como se estivesse refazendo a base do branch, unificando as branches envolvidas, puxando commits para frente do branch de destino
