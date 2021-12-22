@@ -5,7 +5,7 @@ public class Main {
         a1.imprimeDados();
         a1.setNome("Marcelo");
         System.out.println("Novo nome: "+a1.getNome());
-        //Pessoa p = new Aluno()
+        //Pessoa p = new Aluno();
         Aluno a2 = new Aluno("Carlos", 26,"19230913");
         System.out.println("\nAluno2");
         a2.imprimeDados();

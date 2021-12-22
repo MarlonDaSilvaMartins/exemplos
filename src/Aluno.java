@@ -25,6 +25,11 @@ public class Aluno extends Pessoa{
 
     String matricula;
 
+    /*
+     * polimorfismo
+     * é o princípio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar métodos que têm a
+     * mesma identificação, assinatura, mas comportamentos distintos, especializados para cada classe derivada
+     */
     @Override
     public void imprimeDados(){
         System.out.println("Nome: "+super.getNome());

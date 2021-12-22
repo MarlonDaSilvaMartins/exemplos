@@ -1,4 +1,18 @@
 abstract class Pessoa {//classe final nao pode ter filho
+    /*
+     * classe abstrata
+     * NAO suporta heranças multiplas
+     * pode conter metodos concretos ou metodos abstratos
+     * pode conter atributos
+     * contem construtor
+     *
+     * classes abstratas servem para prover uma base para que as classes que “herdem” desta não precisem se preocupar
+     * com o comportamento padrão, apenas com suas características e comportamentos pessoais
+     */
+    /*
+    * construtor
+    * metodo com o mesmo nome que a classe, responsavel por criar o objeto em memoria
+    */
     public Pessoa(){
     }
     public Pessoa(String nome, int idade) {
