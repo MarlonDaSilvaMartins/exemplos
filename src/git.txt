@@ -14,17 +14,18 @@ Git - GitHub
        utilizado para ignorar arquivos que não devem passar pelo commit
 
     Comandos básicos  do git
-       git branch
-       git clone
-       git merge
-       git rebase
-       git fetch
-       git add
-       git rm
-       git commit
-       git push
-       git status
-       git checkout
+       git branch   //mostra as branchs e cria nova branch
+       git clone    //copia um repositorio do git para um novo repositorio local
+       git fetch    //atualiza seu repositorio atual de acordo com o reposiorio remoto
+       git add      //adiciona arquivo para staging area
+       git rm       //remove arquivos do indice de staging e do diretori de trabalho
+       git commit   //guarda o estado do sistema no momento do comando
+       git push     //envia as alteracoes locais para uma maquina remota
+       git status   //mostra o estado atual do diretorio de trabalho e da staging area
+       git checkout //troca e branch e cria branch(-b)
+       git stash    //utilizado para salvar mudancas que não devem ser commitadas imediatamente
+       git merge    //
+       git rebase   //
 
     Resolução de conflitos em merge
        ocorre quando ocorrem alterações concorrentes na mesma linha de um arquivo ou
@@ -45,10 +46,23 @@ Git - GitHub
        como se estivesse refazendo a base do branch, unificando as branches envolvidas, puxando commits para frente do branch de destino
 
     Diferença entre o Merge e o Rebase
-       rebase: unifica as branchs e permite um historico linear
+       rebase: unifica as branchs e permite um historico linear, modificando o historico de commits.
        merge: permite pegar linhas de comandos independentes e integrar em uma ramificação única, sem alterar a branch
               principal e adicionando apenas um commit na branch de desenvolvimento
+       //rebase
+       ->m1--m2--m3--m4
+                  ->f1--f2--f3
+
+       ->m1--m2--m3--m4--f1--f2--f3
+
+       //merge
+       ->m1--m2--m3--m4-------m5
+                  ->f1--f2--f3^
+
+
 
 git branch <NomeNovaBranch> //criar branch
 git checkout <NomeDaBranch> //trocar de branch
 git push -u <url> <NomeDaBranch> //criando nova branch no repositorio remoto
+
+git reset --hard origin/nome da branch //pegar o remoto e sobreescrever o local

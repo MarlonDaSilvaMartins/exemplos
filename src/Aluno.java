@@ -21,7 +21,9 @@ public class Aluno extends Pessoa{
             this.duracao = duracao;
         }
     }
-    public String matricula;
+
+
+    String matricula;
 
     @Override
     public void imprimeDados(){

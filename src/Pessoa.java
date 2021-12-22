@@ -1,4 +1,4 @@
-abstract class Pessoa {
+abstract class Pessoa {//classe final nao pode ter filho
     public Pessoa(){
     }
     public Pessoa(String nome, int idade) {
@@ -11,6 +11,7 @@ abstract class Pessoa {
         this.cidade = cidade;
     }
 
+    //default nao funciona por herança, apenas por pacote
     private String nome;//apenas a classe tem acesso
     protected int idade;//pacote e herança tem acesso
     public static String cidade;//todos tem acesso
