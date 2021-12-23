@@ -20,12 +20,12 @@ Git - GitHub
        git clone    //copia um repositorio do git para um novo repositorio local
        git fetch    //atualiza seu repositorio atual de acordo com o reposiorio remoto
        git add      //adiciona arquivo para staging area
-       git rm       //remove arquivos do indice de staging e do diretori de trabalho
+       git rm       //remove arquivos do indice de staging e do diretorio de trabalho
        git commit   //guarda o estado do sistema no momento do comando
        git push     //envia as alteracoes locais para uma maquina remota
        git status   //mostra o estado atual do diretorio de trabalho e da staging area
        git checkout //troca e branch e cria branch(-b)
-       git stash    //utilizado para salvar mudancas que não devem ser commitadas imediatamente
+       git stash    //
        git merge    //
        git rebase   //
 
