@@ -25,7 +25,7 @@ Git - GitHub
        git push     //envia as alteracoes locais para uma maquina remota
        git status   //mostra o estado atual do diretorio de trabalho e da staging area
        git checkout //troca e branch e cria branch(-b)
-       git stash    //utilizado para salvar mudancas que não devem ser commitadas imediatamente
+       git stash    //
        git merge    //
        git rebase   //
 
