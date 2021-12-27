@@ -1,14 +1,14 @@
 public class ContaCorrente implements Conta{
     private double saldo;
-    private double taxa = 0.25;//valor da taxa
+    private double ValorTaxa = 1.15;
 
     @Override//sobreescrevendo metodo da interface
     public void depositar(double valor){
-        this.saldo += valor - taxa;
+        this.saldo += valor - ValorTaxa;
     }
     @Override//sobreescrevendo metodo da interface
     public void sacar(double valor){
-        this.saldo -= valor + taxa;
+        this.saldo -= valor + ValorTaxa;
     }
     @Override//sobreescrevendo metodo da interface
     public double getsaldo(){
