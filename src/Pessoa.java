@@ -23,7 +23,7 @@ abstract class Pessoa {//classe final nao pode ter filho
         this.nome = nome;
         this.idade = idade;
         this.cidade = cidade;
-    }
+    }//polimorfismo estatito
 
     //default nao funciona por herança, apenas por pacote
     private String nome;//apenas a classe tem acesso
