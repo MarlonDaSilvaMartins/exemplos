@@ -1,3 +1,5 @@
+package br.com.exemplos.conta;
+
 public interface Conta {
     /*
     * interface
@@ -12,4 +14,6 @@ public interface Conta {
     void depositar(double valor);//metodo sem corpo, apenas com parametro e tipo de retorno
     void sacar(double valor);//metodo sem corpo, apenas com parametro e tipo de retorno
     double getsaldo();//metodo sem corpo, apenas com tipo de retorno
+
+    //java 9 implementação no interface
 }

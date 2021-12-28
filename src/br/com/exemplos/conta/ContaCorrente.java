@@ -1,14 +1,18 @@
-public class ContaCorrente implements Conta{
+package br.com.exemplos.conta;
+
+import br.com.exemplos.conta.Conta;
+
+public class ContaCorrente implements Conta {
     private double saldo;
-    private double taxa = 1.15;
+    private final double ValorTaxa = 0.34;
 
     @Override//sobreescrevendo metodo da interface
     public void depositar(double valor){
-        this.saldo += valor - taxa;
+        this.saldo += valor - ValorTaxa;
     }
     @Override//sobreescrevendo metodo da interface
     public void sacar(double valor){
-        this.saldo -= valor + taxa;
+        this.saldo -= valor + ValorTaxa;
     }
     @Override//sobreescrevendo metodo da interface
     public double getsaldo(){

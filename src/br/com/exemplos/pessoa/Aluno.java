@@ -1,4 +1,6 @@
-public class Aluno extends Pessoa{
+package br.com.exemplos.pessoa;
+
+public class Aluno extends Pessoa {
     public Aluno(String nome, int idade, String cidade,String matricula) {//construtor com cidade
         super(nome,idade,cidade);
         this.matricula = matricula;
