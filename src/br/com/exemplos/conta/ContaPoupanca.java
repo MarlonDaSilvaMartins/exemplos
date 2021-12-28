@@ -1,4 +1,8 @@
-public class ContaPoupanca implements Conta{
+package br.com.exemplos.conta;
+
+import br.com.exemplos.conta.Conta;
+
+public class ContaPoupanca implements Conta {
     private double saldo;
 
     @Override//sobreescrevendo metodo da interface

@@ -1,3 +1,5 @@
+package br.com.exemplos.pessoa;
+
 abstract class Pessoa {//classe final nao pode ter filho
     /*
      * classe abstrata

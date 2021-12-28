@@ -6,9 +6,11 @@ Git - GitHub
 
     Conceito de  Issues
        ferramenta para deixar um feedback ou reportar probemas encontrados
+       na aba projects do github o issues pode ser utilizado tambem como Card de controle de fluxo, como em um kanban
 
     Conceito de Milestones
-       forma de agrupar uma serie de tarefas, serve como ponto de controle em um projeto
+       forma de agrupar uma serie de tarefas, serve como ponto de controle em um projeto, podendo ser usado como uma
+       deficicao de sprint no seu projeto
 
     Git Ignore
        utilizado para ignorar arquivos que não devem passar pelo commit
@@ -38,7 +40,7 @@ Git - GitHub
            git stash //guarda alteracoes que nao irao ser commitadas no momento
            git stash pop //devolve as alteracoes para o codigo
 
-    Git cherry pick
+    Git cherry-pick
        selecionar commits específicos para trazer para uma branch desejada
           git cherry-pick <IdCommit> //checkout para a "main">cherrypick>push / commita apenas esse commit para a branch "main"(exemplo)
 
